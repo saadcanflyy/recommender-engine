@@ -1,4 +1,8 @@
 import streamlit as st
+st.write("✅ App started")
+
+
+import streamlit as st
 import pandas as pd
 from src.recommender import RecommenderEngine
 
@@ -33,3 +37,4 @@ if st.button("Recommend"):
 
     st.dataframe(df, use_container_width=True)
     
+
