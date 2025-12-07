@@ -1,0 +1,7 @@
+streamlit
+numpy
+pandas
+scikit-learn
+tensorflow>=2.13
+tensorflow-recommenders
+scikit-surprise
